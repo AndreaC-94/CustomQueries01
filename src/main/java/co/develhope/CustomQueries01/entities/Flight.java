@@ -15,5 +15,6 @@ public class Flight {
     private String description;
     private String fromAirport;
     private String toairport;
+    @Enumerated(EnumType.STRING)
     private FlightEnum status;
 }
